@@ -26,10 +26,10 @@ window.onload = function(){
 		clearInterval(timer);
 	};
 	bannerItem.onmouseout = function(){
-		timer = setInterval(toRun,2000);
+		timer = setInterval(toRun,3500);
 	};
 	
-	timer = setInterval(toRun,2000);
+	timer = setInterval(toRun,3500);
 	
 	function toRun(){
 		if(isNow == aLiUl.length-1){
