@@ -1,0 +1,89 @@
+﻿/* css document */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft YaHei';
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Microsoft YaHei';
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline-style: none;
+}
+
+a {
+    outline: none;
+}
+
+/*  Layout style at Home */
+
+.fixed-btn-list {
+    position: fixed;
+    right: 40px;
+    bottom: 110px;
+    z-index: 99;
+    width: 40px;
+    border-radius: 3px;
+    background-color: transparent !important;
+}
+
+.fixed-btn-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline-style: none;
+    line-height: 40px;
+    width: 40px;
+}
+
+.fixed-btn-list ul li {
+    width: 40px;
+    height: 40px;
+    margin: 4px auto;
+    border: #777 1px solid;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.fixed-btn-list ul li a {
+    display: block;
+    line-height: 16px;
+    text-align: center;
+    padding: 4px;
+    color: #777;
+    text-decoration: none;
+    outline: 0 none;
+    cursor: pointer;
+}
+
+.fixed-btn-list ul li a:hover {
+    background-color: #777;
+    color: #fff;
+    border-radius: 3px;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+}

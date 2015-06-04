@@ -1,0 +1,71 @@
+﻿/* css document */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*  Layout style at Home */
+
+/* -- new style */
+.admin-home-body {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-home-left {
+    position: absolute;
+    width: 120px;
+    height: 100%;
+    text-align: center;
+    background-color: #262626;
+}
+
+.admin-home-left > h2 {
+    color: #b45f0f;
+    margin-top: 40px;
+}
+
+.admin-home-left > h2:hover {
+    color: orange;
+}
+
+.admin-home-left ul {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.admin-home-left ul li {
+    margin-top: 20px;
+}
+
+.admin-home-left ul li > a {
+    color: #8f8f8f;
+    font-size: 15px;
+    font-family: 'Microsoft YaHei';
+}
+
+.admin-home-left ul li > a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.admin-home-right {
+    max-width: 1000px;
+    height: 100%;
+    margin-left: 160px;
+}
+
+.admin-user {
+    height: 40px;
+    border-bottom: 1px solid #efefef;
+}
+
+.admin-user a {
+    color: #aeaeae;
+}
+
+/* new style -- */
