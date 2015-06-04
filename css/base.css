@@ -1,0 +1,86 @@
+/* CSS Document */
+@charset "utf-8";
+
+/* -- common style */
+* {
+	margin: 0;
+	padding: 0;
+	outline-style: none;
+}
+
+html,
+body {
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* html5 element style */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+a {
+	cursor: pointer;
+	display: block;
+	transition: color 1s;
+	text-decoration: none;
+	-moz-transition: color 1s;	/* Firefox 4 */
+	-webkit-transition: color 1s;	/* Safari and Chrome */
+	-o-transition: color 1s;	/* Opera */
+}
+
+/* image common style */
+img {
+	max-width: 100%;
+	height: auto;
+	border: none;
+}
+
+/* common list style */
+ul {
+    list-style: none;
+    outline-style: none;
+    list-style-type: none;
+    float: left;
+    overflow: hidden;
+    display: inline;
+}
+ul li {
+    float: left;
+    overflow: hidden;
+    display: inline;
+}
+
+textarea 
+{
+    resize: none;
+}
+
+/*
+input[type="button"], input[type="submit"], input[type="reset"] {
+	-webkit-appearance: none;
+}
+*/
+
+.clearfix:after {
+	visibility: hidden;
+	height: 0;
+	content: "";
+	font-size: 0;
+	clear: both;
+	display: block;
+}
+.clearfix {
+	*zoom: 1;
+}
+/* common style -- */
